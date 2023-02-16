@@ -31,14 +31,19 @@
         </nav>
     </div>
 
-    <section id="Hero">
-        <div style="background-image: url('./Hero.jpeg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; height:480px; padding-top:80px;" class="Hero"> 
+    <section id="Hero" style="padding-bottom: 5px;">
+        <div style="background-image: url('./Hero.jpeg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; height:700px; padding-top:80px;" class="Hero"> 
             <h1 class="Hero-title">Hi there!</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>
                 In ratione incidunt omnis sint cupiditate optio ducimus distinctio iure consectetur velit, <br>
                 provident explicabo? Laborum, deleniti ipsa voluptas exercitationem aperiam hic illo?</p>
                 <button class="View-btn" onclick="location.href = '#H1'">View All</button>
+                
+                <div class="fade-out"></div>
         </div>
+
+        
+
     </section>
 
     <center><h1 class="H1" id="H1">Most Popular</h1></center>
@@ -50,16 +55,16 @@
 
             
             <div class="img1">
-                <img src="./Earphones.jpg" alt="Earphones" height="250" style="margin-left: 50px;">
+                <img src="./Earphones.jpg" alt="Earphones" class="first-img">
                 <div>
-                    <p style="padding-left: 60px;">Earphones<br>(ZAR 299)</p>
+                    <p>Earphones<br>(ZAR 299)</p>
                 </div>
             </div>
 
             
 
             <div class="img1">
-            <img src="./Headphones.jpg" alt="Headphones" height="250">
+            <img src="./Headphones.jpg" alt="Headphones">
 
             <div>
                 <p>Headphones<br>(ZAR 399)</p>
@@ -68,7 +73,7 @@
             </div>
 
                 <div class="img1">
-                    <img src="./Controller1.jpg" alt="ControllerXbox" height="250">
+                    <img src="./Controller1.jpg" alt="ControllerXbox">
 
                     <div>
                         <p>XboxController<br>(ZAR 1999)</p>
@@ -77,7 +82,7 @@
                 </div>
 
                     <div class="img1">
-                        <img src="./Controller2.jpg" alt="ControllerPS" height="250">
+                        <img src="./Controller2.jpg" alt="ControllerPS">
 
                         <div>
                             <p>PSController<br>(ZAR 1999)</p>
@@ -102,21 +107,21 @@
     <div id="footer-main">
         <div class="links">
             <h1>About Site</h1>
-            <p>About-Us</p>
-            <p>Contact-Us</p>
+            <p><a href="#">About-Us</a></p>
+            <p><a href="#">Contact-Us</a></p>
         </div>
 
         <div class="links-mid">
             <h1>Main Site</h1>
-            <p>Most-Popular</p>
-            <p>Catalog</p>
-            <p>Details</p>
+            <p><a href="#Popular">Most-Popular</a></p>
+            <p><a href="#">Catalog</a></p>
+            <p><a href="#">Details</a></p>
         </div>
 
         <div>
             <h1 style="padding-left: 10px;">Account</h1>
-            <p>Sign-In</p>
-            <p>Create-Acount</p>
+            <p><a href="#">Sign-In</a></p>
+            <p><a href="#">Create-Acount</a></p>
         </div>
     </div>
 </footer>
