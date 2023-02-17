@@ -139,17 +139,18 @@ p {
     grid-row: 3;
     justify-self: center;
     margin-bottom: 20px;
-    transition: border-right .3s ease-in-out, border-left .3s ease-in-out, border-top .3s ease-in-out, border-color 0s ease-out;
+    transition: all .6s ease;
     border-color: black;
 }
 
 #Hero .Hero .View-btn:hover {
-    border-radius: 0px;
-    border-top: 0px;
-    border-right: 0px;
-    border-left: 0px;
-    transition: all .4s ease-in-out;
-    border-color: white;
+    
+    border-radius: 10%;
+    border-color: rgba(255, 255, 255, 0);
+    background-color: rgba(250, 235, 215, 0.37);
+    color: black;
+    font-size: 25px;
+    border: none;
     
 }
 
@@ -234,103 +235,5 @@ footer p a {
     background: linear-gradient(360deg, black, transparent);
     grid-row: 4;
     padding-top: 214px;
-}
-
-#Catalog .img-card1{
-    background-image: url(./Catagory1.jpg);
-    width: 300px;
-    background-color: rgb(50, 50, 50);
-    height: 300px;
-    margin-left: 2rem;
-    margin-top: 2rem;
-    border-radius: 20px;
-    background-size: cover;
-    background-position: center;
-    filter: brightness(90%);
-    
-}
-
-#Catalog button{
-    position: absolute;
-    transform: translate(275px, 250px);
-    color: transparent;
-    background-color: transparent;
-    border: none;
-}
-
-#Catalog .p {
-    position: absolute;
-    transform: translate(210px, 150px);
-    text-align: center;
-    color: rgba(255, 255, 255, 0);
-    pointer-events: none;
-    z-index: 1;
-}
-
-#Catalog .img-card1:hover ~ .p{
-    color: rgba(255, 255, 255, 1);
-    transition: all .6s ease-in-out;
-}
-
-#Catalog .img-card1 p {
-    margin-top: 125px;
-    background-color: rgba(44, 44, 44, .2);
-    font-size: 40px;
-    transition: all .6s ease-in-out;
-}
-
-#Catalog .img-card1:hover p{
-    transform: translateY(100px);
-    transition: all .6s ease-in-out;
-}
-
-#Catalog .img-card1:hover p{
-    transform: translateY(-20px);
-    transition: all .6s ease-in-out;
-}
-
-#Catalog .container {
-    display: grid;
-    grid-template-columns: auto auto auto auto auto auto;
-    grid-template-rows: auto auto auto auto auto auto;
-    justify-content: center;
-}
-
-#Catalog .img-card2{
-    background-image: url(./Controller2.jpg);
-
-    background-color: rgb(50, 50, 50);
-    height: 300px;
-    width: 300px;
-    margin-left: 2rem;
-    margin-top: 2rem;
-    border-radius: 20px;
-    background-size: cover;
-    background-position: center;
-}
-
-#Catalog .img-card3{
-    background-image: url(./Headphones.jpg);
-    background-color: rgb(50, 50, 50);
-    height: 300px;
-    width: 300px;
-    margin-left: 2rem;
-    margin-top: 2rem;
-    border-radius: 20px;
-    background-size: cover;
-    background-position: center;
-}
-
-#Catalog .img-card4{
-    background-image: url(./Earphones.jpg);
-
-    background-color: rgb(50, 50, 50);
-    height: 300px;
-    width: 300px;
-    margin-left: 2rem;
-    margin-top: 2rem;
-    border-radius: 20px;
-    background-size: cover;
-    background-position: center;
 }
 
