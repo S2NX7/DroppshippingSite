@@ -1,129 +1,141 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Site|Home</title>
+  </head>
 
-<head>
-    <!-- Local style sheet relative to workspace folder -->
-    <link rel="stylesheet" href="/style.css">
-
-</head>
-
-<body>
-
+  <body>
     <div class="Nav">
-        <nav class="Navbar">
-            
-            <a href="#"><img src="./Logo.png" style="padding-top: 1rem; padding-bottom: 1rem;"></a>
+      <nav class="Navbar">
+        <a href="#"
+          ><img
+            src="./Catagory/img/Logo.png"
+            style="padding-top: 1rem; padding-bottom: 1rem"
+        /></a>
 
-            <ul>
-                <li>
-                    <a href="#">Home</a>
-                    <a href="#">Catalog</a>
-                    <a href="#">About</a>
-                    <a href="#">Contact</a>
-                </li>
-            </ul>
+        <ul>
+          <li>
+            <a href="Index.html">Home</a>
+            <a href="./Catalog.html">Catalog</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+          </li>
+        </ul>
 
-            <div>
-            <button class="Nav-btn">
-                Sign-In
-            </button>
+        <div>
+          <button class="Nav-btn">Sign-In</button>
         </div>
-        </nav>
+      </nav>
     </div>
 
-    <section id="Hero" style="padding-bottom: 5px;">
-        <div style="background-image: url('./Hero.jpeg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; height:700px; padding-top:80px;" class="Hero"> 
-            <h1 class="Hero-title">Hi there!</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>
-                In ratione incidunt omnis sint cupiditate optio ducimus distinctio iure consectetur velit, <br>
-                provident explicabo? Laborum, deleniti ipsa voluptas exercitationem aperiam hic illo?</p>
-                <button class="View-btn" onclick="location.href = '#H1'">View All</button>
-                
-                <div class="fade-out"></div>
-        </div>
+    <section id="Hero" style="padding-bottom: 5px">
+      <div
+        style="
+          background-image: url('./Catagory/img/Hero.jpeg');
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-attachment: fixed;
+          height: 700px;
+          padding-top: 80px;
+        "
+        class="Hero"
+      >
+        <h1 class="Hero-title">Hi there!</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br />
+          In ratione incidunt omnis sint cupiditate optio ducimus distinctio
+          iure consectetur velit, <br />
+          provident explicabo? Laborum, deleniti ipsa voluptas exercitationem
+          aperiam hic illo?
+        </p>
+        <button class="View-btn" onclick="location.href = '#H1'">
+          View All
+        </button>
 
-        
-
+        <div class="fade-out"></div>
+      </div>
     </section>
 
     <center><h1 class="H1" id="H1">Most Popular</h1></center>
 
     <section id="Popular">
-
-        
-        <div class="container">
-
-            
-            <div class="img1">
-                <img src="./Earphones.jpg" alt="Earphones" class="first-img">
-                <div>
-                    <p>Earphones<br>(ZAR 299)</p>
-                </div>
-            </div>
-
-            
-
-            <div class="img1">
-            <img src="./Headphones.jpg" alt="Headphones">
-
-            <div>
-                <p>Headphones<br>(ZAR 399)</p>
-            </div>
-
-            </div>
-
-                <div class="img1">
-                    <img src="./Controller1.jpg" alt="ControllerXbox">
-
-                    <div>
-                        <p>XboxController<br>(ZAR 1999)</p>
-                    </div>
-
-                </div>
-
-                    <div class="img1">
-                        <img src="./Controller2.jpg" alt="ControllerPS">
-
-                        <div>
-                            <p>PSController<br>(ZAR 1999)</p>
-                        </div>
-
-                    </div>
-
-            </div>
+      <div class="container">
+        <div class="img1">
+          <img
+            src="./Catagory/img/Earphones.jpg"
+            alt="Earphones"
+            class="first-img"
+          />
+          <div>
+            <p>Earphones<br />(ZAR 299)</p>
+          </div>
         </div>
+
+        <div class="img1">
+          <img src="./Catagory/img/Headphones.jpg" alt="Headphones" />
+
+          <div>
+            <p>Headphones<br />(ZAR 399)</p>
+          </div>
+        </div>
+
+        <div class="img1">
+          <img src="./Catagory/img/Controller1.jpg" alt="ControllerXbox" />
+
+          <div>
+            <p>XboxController<br />(ZAR 1999)</p>
+          </div>
+        </div>
+
+        <div class="img1">
+          <img src="./Catagory/img/Controller2.jpg" alt="ControllerPS" />
+
+          <div>
+            <p>PSController<br />(ZAR 1999)</p>
+          </div>
+        </div>
+      </div>
     </section>
     <center><h1 class="H1">Who We Are</h1></center>
     <section id="Info">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus voluptatibus at odit quis? <br>
-            Labore molestias aliquam obcaecati voluptates quae fuga eum exercitationem <br> 
-            saepe dolore doloribus quidem accusantium eos, magni modi. Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
-            Expedita quos dicta sed blanditiis perferendis omnis ipsam architecto pariatur voluptates, <br>
-            quas voluptas fuga, quae fugit debitis velit voluptate amet, quo sunt.</p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
+        voluptatibus at odit quis? <br />
+        Labore molestias aliquam obcaecati voluptates quae fuga eum
+        exercitationem <br />
+        saepe dolore doloribus quidem accusantium eos, magni modi. Lorem ipsum
+        dolor sit amet consectetur adipisicing elit. <br />
+        Expedita quos dicta sed blanditiis perferendis omnis ipsam architecto
+        pariatur voluptates, <br />
+        quas voluptas fuga, quae fugit debitis velit voluptate amet, quo sunt.
+      </p>
     </section>
-</body>
+  </body>
 
-<footer id="footer">
+  <footer id="footer">
     <div id="footer-main">
-        <div class="links">
-            <h1>About Site</h1>
-            <p><a href="#">About-Us</a></p>
-            <p><a href="#">Contact-Us</a></p>
-        </div>
+      <div class="links">
+        <h1>About Site</h1>
+        <p><a href="#">About-Us</a></p>
+        <p><a href="#">Contact-Us</a></p>
+      </div>
 
-        <div class="links-mid">
-            <h1>Main Site</h1>
-            <p><a href="#Popular">Most-Popular</a></p>
-            <p><a href="#">Catalog</a></p>
-            <p><a href="#">Details</a></p>
-        </div>
+      <div class="links-mid">
+        <h1>Main Site</h1>
+        <p><a href="#Popular">Most-Popular</a></p>
+        <p><a href="#">Catalog</a></p>
+        <p><a href="#">Details</a></p>
+      </div>
 
-        <div>
-            <h1 style="padding-left: 10px;">Account</h1>
-            <p><a href="#">Sign-In</a></p>
-            <p><a href="#">Create-Acount</a></p>
-        </div>
+      <div>
+        <h1 style="padding-left: 10px">Account</h1>
+        <p><a href="#">Sign-In</a></p>
+        <p><a href="#">Create-Acount</a></p>
+      </div>
     </div>
-</footer>
-
+  </footer>
 </html>
