@@ -1,0 +1,180 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@300&display=swap');
+
+:root {
+    --blue : #24ACCC;
+    --purple : #7C24CC;
+    --font : 'Montserrat', sans-serif;
+}
+
+p {
+    color: white;
+    font-family: var(--font);
+    text-align: center;
+    grid-row: 2;
+    font-size: 20px;
+}
+
+#Catalog .p {
+    position: absolute;
+    transform: translate(210px, 150px);
+    text-align: center;
+    color: rgba(255, 255, 255, 0);
+    pointer-events: none;
+    z-index: 1;
+}
+
+#Catalog .container1 {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: auto;
+    justify-content: center;
+}
+
+#Catalog .container1 .img-card1{
+    background-image: url(./Catagory/img/Controller1.jpg);
+    width: 300px;
+    background-color: rgb(50, 50, 50);
+    height: 300px;
+    margin-top: 2rem;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(90%);
+    
+}
+
+#Catalog .container1 .img-card2{
+    background-image: url(./Catagory/img/Controller2.jpg);
+
+    background-color: rgb(50, 50, 50);
+    height: 300px;
+    width: 300px;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+}
+
+#Catalog .container1 .img-card3{
+    background-image: url(./Catagory/img/Headphones.jpg);
+    background-color: rgb(50, 50, 50);
+    height: 300px;
+    width: 300px;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+}
+
+#Catalog .container1 .img-card4{
+    background-image: url(./Catagory/img/Earphones.jpg);
+
+    background-color: rgb(50, 50, 50);
+    height: 300px;
+    width: 300px;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+}
+
+#Catalog .container1 .img-card5{
+    background-image: url(./Catagory/img/Earpods.jpg);
+
+    background-color: rgb(50, 50, 50);
+    height: 300px;
+    width: 300px;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+}
+
+.H1 {
+    font-size: 60px;
+    font-family: var(--font);
+    padding: 30px;
+    background-color: rgb(50, 50, 50);
+    margin: 0%;
+    color: white;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+#Catalog .container2 {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: auto;
+    justify-content: center;
+}
+
+#Catalog .container2 .img-card1{
+    background-image: url(./Catagory/img/tsirt1.jpg);
+    width: 300px;
+    background-color: rgb(50, 50, 50);
+    height: 300px;
+    margin-top: 2rem;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(90%);
+    
+}
+
+#Catalog .container2 .img-card2{
+    background-image: url(./Catagory/img/tshirt2.jpg);
+
+    background-color: rgb(50, 50, 50);
+    height: 300px;
+    width: 300px;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+}
+
+#Catalog .container2 .img-card3{
+    background-image: url(./Catagory/img/Headphones.jpg);
+    background-color: rgb(50, 50, 50);
+    height: 300px;
+    width: 300px;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+}
+
+#Catalog .container2 .img-card4{
+    background-image: url(./Catagory/img/Earphones.jpg);
+
+    background-color: rgb(50, 50, 50);
+    height: 300px;
+    width: 300px;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+}
+
+#Catalog .container2 .img-card5{
+    background-image: url(./Catagory/img/Earpods.jpg);
+
+    background-color: rgb(50, 50, 50);
+    height: 300px;
+    width: 300px;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+}
+
