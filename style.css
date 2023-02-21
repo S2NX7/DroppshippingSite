@@ -56,6 +56,7 @@ html {
 
 .Nav .Navbar ul li a:hover {
     color: var(--blue);
+    background-color: ;
 }
 
 .Nav .Navbar ul li {
